@@ -1,0 +1,16 @@
+.dashboard {
+    width: 400px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard a {
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}

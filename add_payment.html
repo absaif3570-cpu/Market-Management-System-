@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Payment</title>
+</head>
+<body>
+
+<div class="form-box">
+    <h2>Add Payment</h2>
+    <form action="add_payment.php" method="POST">
+        <input type="number" name="vendor_id" placeholder="Vendor ID" required><br>
+        <input type="number" name="amount" placeholder="Amount" required><br>
+
+        <select name="payment_method">
+            <option value="Cash">Cash</option>
+            <option value="Bank Transfer">Bank Transfer</option>
+            <option value="Mobile Banking">Mobile Banking</option>
+        </select><br><br>
+
+        <input type="date" name="payment_date" required><br><br>
+        <button type="submit">Submit Payment</button>
+    </form>
+</div>
+
+</body>
+</html>
